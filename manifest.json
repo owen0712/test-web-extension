@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "HTML to Text Saver",
+  "description": "Save the current page HTML source as a .txt file.",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "scripting", "downloads", "tabs"],
+  "action": {
+    "default_title": "HTML to Text Saver",
+    "default_popup": "popup.html"
+  }
+}
